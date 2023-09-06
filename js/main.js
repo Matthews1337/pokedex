@@ -30,7 +30,7 @@ function LoadPokemonItens(offset, limit) {
                     </ol>
                     <img class="front-img" src="${pokemon.photo}" 
                         alt="${pokemon.name}">
-                    <img src="/img/pokebola2.png" 
+                    <img src="img/pokebola2.png" 
                         alt="pokebola">
                 </div>
                 <div class="stats">
