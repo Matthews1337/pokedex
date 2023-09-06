@@ -8,7 +8,7 @@
 
 Este projeto faz parte do Bootcamp "Santander Bootcamp 2023 - Fullstack Java+Angular" oferecido pela Santander em parceria com a DIO. A "Pokedex" é uma página que envolve o consumo de uma API REST para criar e personalizar uma Pokedex.
 
-O resultado do projeto pode ser visto aqui 👉 
+O resultado do projeto pode ser visto aqui 👉 https://matthews1337.github.io/pokedex/
 
 
 ## Tecnologias Utilizadas
