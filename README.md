@@ -13,19 +13,19 @@ O resultado do projeto pode ser visto aqui 👉
 
 ## Tecnologias Utilizadas
 
-- JavaScript (utilizando ES Modules para organização)
+- JavaScript 
 - Consumo de API REST
-- SASS (para estilização)
+- CSS (para estilização)
 
 ## Funcionalidades
 
 - Exibição de informações sobre diferentes Pokémons.
 - Personalização da Pokedex com base nos dados da API.
-- Mecanismo de busca para encontrar Pokémon específicos.
+
 
 ## Aprendizados
 
 - Consumo de API do tipo REST para obtenção de dados.
 - Criação de modal.
 - Manipulação da DOM e tratamento de eventos em JavaScript.
-- Organização de código com ES Modules e utilização de SASS para estilização.
+- Organização de código com ES Modules e utilização de CSS para estilização.
