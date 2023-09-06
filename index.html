@@ -22,12 +22,101 @@
 </head>
 <body>
     <section class="Content">
-        <h1>Pokedex</h1>
+        <h1 class="title"><a href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/143.svg">
+            <img src="/img/fonte_pokemon.png">
+        </a>
+    </h1>
+        
 
         <ol id="pokemonList" class="pokemons">
-            <li class="pokemon">
+                   
                 <!--Pokemons HERE-->
+
+                <li class="pokemon">
+                    <div style="background-color:rgb(28, 78, 141);" class="card">     
+                 <span class="number">#001</span>
+                 <span class="name">Matheus</span>
+         
+                 <div class="detail">
+                     <ol class="types">
+                         
+                           <li style="color: #fff;
+                           padding: 0.25rem 0.5rem;
+                           font-size: 0.625rem;
+                           margin: 0.25rem 0;
+                           border-radius: 1rem;
+                           filter: brightness(1.1);
+                           text-align: center;
+                           background-color:rgb(28, 72, 155);" 
+                           class="type">Developer</li>
+                          
+                     </ol>
+                     <img class="front-img" src="img/pokemon_me.png" 
+                         alt="${pokemon.name}">
+                     <img src="/img/pokebola2.png" 
+                         alt="pokebola">
+                 </div>
+                 <div class="stats">
+                 <ol class="card-detail-list">
+                 <hr>
+                 <li class="stat-item">
+                     <span class="stat-item-text">PTHON  </span>
+                     <div class="ability-container">
+                         <div class="hp" id="hp"></div>
+                     </div>
+                     <span class="stat-item-value">100</span>
+                 </li>
+                 <li class="stat-item">
+                     <span class="stat-item-text">JAVA   SCRIPT   </span>
+                     <div class="ability-container">
+                         <div class="hp" id="atk"></div>
+                     </div>
+                     <span class="stat-item-value">100</span>
+                 </li>
+                 <li class="stat-item">
+                     <span class="stat-item-text">HTML   </span>
+                     <div class="ability-container">
+                         <div class="hp" id="def"></div>
+                     </div>
+                     <span class="stat-item-value">100</span>
+                 </li>
+                 <li class="stat-item">
+                     <span class="stat-item-text">ANGU     LAR</span>
+                     <div class="ability-container">
+                         <div class="hp" id="sp_atk"></div>
+                     </div>
+                     <span class="stat-item-value">
+                       100
+                     </span>
+                 </li>
+                 <li class="stat-item">
+                     <span class="stat-item-text">SQL</span>
+                     <div class="ability-container">
+                         <div class="hp" id="sp_def"></div>
+                     </div>
+                     <span class="stat-item-value">
+                       100
+                     </span>
+                 </li>
+                 <li class="stat-item">
+                     <span class="stat-item-text">RESI   LIENCE </span>
+                     <div class="ability-container">
+                         <div class="hp" id="speed"></div>
+                     </div>
+                     <span class="stat-item-value">100</span>
+                 </li>
+             </ol>
+                 </div> 
+                 </div>      
+             </li>
         </ol>
+        <div class="pagination">
+            <button id="loadMoreButton" type="button">
+                load more
+            </button>
+        </div>
+        <!------------------------------------------------------------------------------>
+</body>
     </section>
 
     <!--Main JS-->
